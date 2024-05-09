@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1; user-scalable=0">
+    <title>Kezdőlap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="startWindow">
+            <div>
+                <p> <b>Bányász játék &#9874; </b></p>  
+                <p>
+                    Gyűjts össze minél több drágakövet a törpével!
+                </p><p>A cél, hogy 60 másodperc alatt minél több pontot elérj.</p>
+                    <p>A törpét a W,A,S,D billentyűkkel tudod irányítani.</p>
+                </p>
+            </div>
+            <button id="start">
+                Start
+            </button>
+            <div>
+                <br>
+                <p> <b>Beállítások:</b></p>
+                <p>
+                    <label for="name">Add meg a neved:</label>
+                    <input type="text" id="name"/>
+    
+                </p>
+                <p>
+                    <label for="pont">Hány pontot szeretnél elérni a nyeréshez?</label>
+                    <input type="number" id="pont" value="30" min="1" max="40" >            
+                </p>
+            </div>
+            
+           
+        </div>
+        <div id="GameArea" class="flex-container">
+            <div id="feliratok">
+            <b><p id="adatok"></p></b>
+            <b><p id ="timer"></p></b>
+            <b><p id="score"></p></b>
+            <b><p id="win"></p></b>
+            <b><p id="loose"></p></b>
+            <div id = "TimerButtons">
+                <button id="stop">Stop</button>
+                <button id="continue">Continue</button>
+                <!--<button id="reset">Reset</button> -->                 
+            </div>
+          
+            </div>
+            
+            <canvas id="Canvas" width="600" height="600" aria-disabled="true"></canvas>
+            
+            
+        </div>
+    </div>
+    
+    
+</body>
+</html>
+<script src="script.js"></script>

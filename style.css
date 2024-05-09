@@ -1,0 +1,121 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+
+#Canvas {
+    /*display:block;
+    margin: 0 auto;*/
+	/*align-items: center;*/
+    /*float: left;
+    width: 30%;
+    position: relative;*/
+    display:block;
+    
+  
+}
+
+body{
+    background-image: url('hatter2.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin: 0;
+    padding:  0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+
+#startWindow{
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+}
+
+#GameArea{
+    /*margin: 10px;
+    font-size: 30px;
+    align-items: center;
+    justify-content:first baseline;*/
+}
+
+#feliratok{
+    float: left;
+    width: fit-content;
+    text-align: center;
+    color: rgba(255, 187, 109, 0.659);
+    margin: 5%;
+}
+
+button#start {
+    padding: 10px 20px;
+    background-color: #009534;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 30px;
+    cursor: pointer;
+}
+button{
+    border: none;
+    border-radius: 8px;
+    background-color: #39ca6c;
+    cursor: pointer;
+    font-size: large;
+}
+
+button#start:hover{
+    background-color: rgb(8, 99, 11);
+}
+
+#stop:hover{
+    background-color: rgb(201, 62, 16);
+}
+#stop{
+    visibility: hidden;
+    
+}
+#continue{
+    visibility: hidden;
+    
+}
+
+#continue:hover{
+    background-color: rgb(77, 195, 18);
+}
+
+
+input[type='number']{
+    width: 40px;
+}
+
+#win{
+    color:#e0c40d;
+    text-shadow:1px 1px 10px #cae366, 1px 1px 10px #ccc;
+    font-size:48px;
+}
+
+#loose{
+    color:#9b1d09;
+    text-shadow:1px 1px 10px #ff4618, 1px 1px 10px #ccc;
+    font-size:48px;
+}
+
+
+#container {
+  margin: 0 auto;
+  /*width: 800px;*/
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+
+
+
+
